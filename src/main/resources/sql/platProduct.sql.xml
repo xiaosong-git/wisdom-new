@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sqlConf>
+	<sql name="findPlatProduct" title="通过platproductid查找产品">
+     <![CDATA[    
+        select platproductid,productName,productPrice,channelid,status from tbl_plat_product where platproductid=:platproductid 
+     ]]>
+	</sql>
+
+</sqlConf>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlConf>
+	<sql name="findByCustIdAndproduct" title="根据客户和产品查询所有基础信息和账户信息 ">
+     <![CDATA[    
+	select tc.custid,tc.custstate,tc.appid,tc.appkey,ta.custacct,ta.acctstate,ta.payflag,ta.balance,tp.platproductid,tp.status,tp.productPrice
+    from tbl_cust tc,tbl_cust_acct ta,tbl_plat_product tp WHERE
+    tc.custid = ta.custid and ta.custacct = CONCAT(tc.custid,tp.platproductid)
+    and tc.custid=:custid and tp.platproductid=:platproductid
+      ]]>
+	</sql>
+
+	<sql name="findmacKey" title="客户编号查找macKey">
+		<![CDATA[
+       select t.custid,t.custname,t.certno,t.legalperson,t.officephone,t.address,t.custstate,t.updatedate,t.appid,t.appkey  from tbl_cust t
+        where t.custid = :custid
+     ]]>
+	</sql>
+
+</sqlConf>

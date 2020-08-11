@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sqlConf>
+	<sql name="findeSerRes" title="查找返回报文映射">
+     <![CDATA[    
+    select 
+tc.servercode,tc.ser_return_msg,tc.cli_return_msg,tc.ser_value,tc.cli_value,tc.Ext1,tc.Ext2
+ from tbl_code_define tc where tc.servercode=:servercode
+     ]]>
+	</sql>
+
+</sqlConf>

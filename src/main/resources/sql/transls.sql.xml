@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlConf>
+	<sql name="insert" title="插入流水信息 ">
+     <![CDATA[    
+     insert into tbl_transls(serialno,custid,custacct,transdate,amt,productcode,succ_flag,remark,requestdata,responsedata,responsetime)
+     values(:serialno,:custid,:custacct,:transdate,:amt,:productcode,:succ_flag,:remark,:requestdata,:responsedata,:responsetime)
+      ]]>
+	</sql>
+
+	<sql name="modifyResult" title="修改反馈信息">
+     <![CDATA[    
+	 UPDATE tbl_transls SET amt=:amt,succ_flag=:succ_flag,responsedata=:responsedata,responsetime=:responsetime WHERE serialno=:serialno and custid=:custid
+  	  ]]>
+	</sql>
+	
+	<sql name="findBySerialno" title="查找流水信息">
+	  <![CDATA[
+	  select serialno,custid,custacct,transdate,amt,productcode,succ_flag,remark,requestdata,responsedata,responsetime from tbl_transls WHERE serialno=:serialno 
+	  ]]>
+	</sql>
+
+</sqlConf>

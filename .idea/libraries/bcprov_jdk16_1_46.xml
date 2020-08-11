@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="bcprov-jdk16-1.46">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/bcprov-jdk16-1.46.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fastjson-1.2.70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/top-sdk-java-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

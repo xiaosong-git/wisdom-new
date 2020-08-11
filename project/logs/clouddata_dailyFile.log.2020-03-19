@@ -1,0 +1,75 @@
+2020-03-19 13:58:31 [INFO] Root WebApplicationContext: initialization started
+2020-03-19 13:58:31 [INFO] Refreshing Root WebApplicationContext: startup date [Thu Mar 19 13:58:31 CST 2020]; root of context hierarchy
+2020-03-19 13:58:32 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-19 13:58:32 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-19 13:58:32 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-19 13:58:32 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-19 13:58:32 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 13:58:33 [INFO] Starting beans in phase 2147483647
+2020-03-19 13:58:33 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-56205-1584597513564-1:1,clientId=null,started=false}
+2020-03-19 13:58:33 [INFO] Root WebApplicationContext: initialization completed in 1830 ms
+2020-03-19 13:58:33 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-19 13:58:33 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 13:58:33 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 13:58:33 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-19 13:58:33 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 13:58:33 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 13:58:34 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-19 13:58:34 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 13:58:33 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 13:58:34 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 13:58:33 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 13:58:34 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-19 13:58:34 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 13:58:33 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 13:58:34 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-19 13:58:34 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-19 13:58:34 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-19 13:58:34 [INFO] FrameworkServlet 'springMVC': initialization completed in 900 ms
+2020-03-19 13:59:18 [INFO] {dataSource-1} inited
+2020-03-19 14:08:15 [INFO] Root WebApplicationContext: initialization started
+2020-03-19 14:08:15 [INFO] Refreshing Root WebApplicationContext: startup date [Thu Mar 19 14:08:15 CST 2020]; root of context hierarchy
+2020-03-19 14:08:15 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-19 14:08:15 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-19 14:08:16 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-19 14:08:16 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-19 14:08:16 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 14:08:17 [INFO] Starting beans in phase 2147483647
+2020-03-19 14:08:17 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-56311-1584598097100-1:1,clientId=null,started=false}
+2020-03-19 14:08:17 [INFO] Root WebApplicationContext: initialization completed in 1570 ms
+2020-03-19 14:08:17 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-19 14:08:17 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 14:08:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 14:08:17 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-19 14:08:17 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 14:08:17 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 14:08:17 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-19 14:08:17 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 14:08:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 14:08:17 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 14:08:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 14:08:17 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-19 14:08:17 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 14:08:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 14:08:18 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-19 14:08:18 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-19 14:08:18 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-19 14:08:18 [INFO] FrameworkServlet 'springMVC': initialization completed in 750 ms
+2020-03-19 14:09:05 [INFO] {dataSource-1} inited
+2020-03-19 15:07:51 [INFO] Root WebApplicationContext: initialization started
+2020-03-19 15:07:51 [INFO] Refreshing Root WebApplicationContext: startup date [Thu Mar 19 15:07:51 CST 2020]; root of context hierarchy
+2020-03-19 15:07:51 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-19 15:07:51 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-19 15:07:52 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-19 15:07:52 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-19 15:07:52 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 15:07:53 [INFO] Starting beans in phase 2147483647
+2020-03-19 15:07:53 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-57428-1584601673363-1:1,clientId=null,started=false}
+2020-03-19 15:07:53 [INFO] Root WebApplicationContext: initialization completed in 1979 ms
+2020-03-19 15:07:53 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-19 15:07:53 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 15:07:53 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 15:07:53 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-19 15:07:53 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 15:07:53 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-19 15:07:54 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-19 15:07:54 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 15:07:53 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 15:07:54 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 15:07:53 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 15:07:54 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-19 15:07:54 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Mar 19 15:07:53 CST 2020]; parent: Root WebApplicationContext
+2020-03-19 15:07:54 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-19 15:07:54 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-19 15:07:54 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-19 15:07:54 [INFO] FrameworkServlet 'springMVC': initialization completed in 999 ms
+2020-03-19 15:08:49 [INFO] {dataSource-1} inited

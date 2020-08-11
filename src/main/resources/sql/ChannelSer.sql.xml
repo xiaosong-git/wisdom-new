@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sqlConf>
+	<sql name="findsercode" title="通过通道产品查找对应的服务信息">
+     <![CDATA[    
+       select t.servercode,t.channelid,t.msgtype,t.requestflag,t.url,t.valid,t.mackey,t.mactype,t.macdef,t.childsercode from tbl_channel_ser t
+        where t.channelid = :channelid
+     ]]>
+	</sql>
+</sqlConf>

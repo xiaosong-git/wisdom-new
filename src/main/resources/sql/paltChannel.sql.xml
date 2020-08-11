@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sqlConf>
+	<sql name="findPlatChannel" title="通过platproductid查找通道产品">
+     <![CDATA[    
+        select a.channelid,b.`status`,b.cost,b.channelname from tbl_plat_product a
+        left join tbl_channel b on a.channelid = b.channelid
+        where a.platproductid=:platproductid
+     ]]>
+	</sql>
+  <sql name="findPlatChannelId" title="通过platproductid查找通道产品channelid">
+     <![CDATA[    
+        select a.channelid from tbl_plat_product as a
+        where a.platproductid=:platproductid
+     ]]>
+	</sql>
+	<sql name="findPlatChannelByChannelid" title="通过channelid查找通道产品">
+     <![CDATA[    
+        select a.channelid,a.`status`,a.cost,a.channelname from tbl_channel a
+        where a.channelid=:channelid
+     ]]>
+	</sql>
+</sqlConf>

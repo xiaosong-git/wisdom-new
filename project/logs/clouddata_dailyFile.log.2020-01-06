@@ -1,0 +1,209 @@
+2020-01-06 09:42:33 [INFO] Root WebApplicationContext: initialization started
+2020-01-06 09:42:33 [INFO] Refreshing Root WebApplicationContext: startup date [Mon Jan 06 09:42:33 CST 2020]; root of context hierarchy
+2020-01-06 09:42:33 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-01-06 09:42:33 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-01-06 09:42:33 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-01-06 09:42:34 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-01-06 09:42:34 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 09:42:34 [INFO] Starting beans in phase 2147483647
+2020-01-06 09:42:35 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-59032-1578274954984-1:1,clientId=null,started=false}
+2020-01-06 09:42:35 [INFO] Root WebApplicationContext: initialization completed in 1649 ms
+2020-01-06 09:42:35 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-01-06 09:42:35 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 09:42:35 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 09:42:35 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-01-06 09:42:35 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 09:42:35 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 09:42:35 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 09:42:35 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 09:42:35 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 09:42:35 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 09:42:35 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 09:42:35 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 09:42:35 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 09:42:35 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 09:42:35 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-01-06 09:42:35 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-01-06 09:42:35 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-01-06 09:42:36 [INFO] FrameworkServlet 'springMVC': initialization completed in 802 ms
+2020-01-06 09:44:40 [INFO] {dataSource-1} inited
+2020-01-06 09:44:45 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 09:44:45 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:15:57 [INFO] Root WebApplicationContext: initialization started
+2020-01-06 11:15:57 [INFO] Refreshing Root WebApplicationContext: startup date [Mon Jan 06 11:15:57 CST 2020]; root of context hierarchy
+2020-01-06 11:15:57 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-01-06 11:15:57 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-01-06 11:15:57 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-01-06 11:15:57 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-01-06 11:15:57 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:15:58 [INFO] Starting beans in phase 2147483647
+2020-01-06 11:15:58 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-50844-1578280558605-1:1,clientId=null,started=false}
+2020-01-06 11:15:58 [INFO] Root WebApplicationContext: initialization completed in 1569 ms
+2020-01-06 11:15:58 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-01-06 11:15:58 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:15:58 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:15:58 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-01-06 11:15:58 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:15:58 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:15:59 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 11:15:59 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:15:58 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:15:59 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:15:58 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:15:59 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 11:15:59 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:15:58 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:15:59 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-01-06 11:15:59 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-01-06 11:15:59 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-01-06 11:15:59 [INFO] FrameworkServlet 'springMVC': initialization completed in 985 ms
+2020-01-06 11:18:38 [INFO] {dataSource-1} inited
+2020-01-06 11:32:40 [INFO] Root WebApplicationContext: initialization started
+2020-01-06 11:32:40 [INFO] Refreshing Root WebApplicationContext: startup date [Mon Jan 06 11:32:40 CST 2020]; root of context hierarchy
+2020-01-06 11:32:40 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-01-06 11:32:40 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-01-06 11:32:40 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-01-06 11:32:40 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-01-06 11:32:40 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:32:41 [INFO] Starting beans in phase 2147483647
+2020-01-06 11:32:41 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-50300-1578281561553-1:1,clientId=null,started=false}
+2020-01-06 11:32:41 [INFO] Root WebApplicationContext: initialization completed in 1613 ms
+2020-01-06 11:32:41 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-01-06 11:32:41 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:32:41 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:32:41 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-01-06 11:32:41 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:32:41 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:32:42 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 11:32:42 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:32:41 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:32:42 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:32:41 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:32:42 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 11:32:42 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:32:41 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:32:42 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-01-06 11:32:42 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-01-06 11:32:42 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-01-06 11:32:42 [INFO] FrameworkServlet 'springMVC': initialization completed in 924 ms
+2020-01-06 11:33:11 [INFO] {dataSource-1} inited
+2020-01-06 11:36:45 [INFO] Root WebApplicationContext: initialization started
+2020-01-06 11:36:45 [INFO] Refreshing Root WebApplicationContext: startup date [Mon Jan 06 11:36:45 CST 2020]; root of context hierarchy
+2020-01-06 11:36:45 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-01-06 11:36:45 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-01-06 11:36:45 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-01-06 11:36:45 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-01-06 11:36:45 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:36:46 [INFO] Starting beans in phase 2147483647
+2020-01-06 11:36:46 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-50538-1578281806352-1:1,clientId=null,started=false}
+2020-01-06 11:36:46 [INFO] Root WebApplicationContext: initialization completed in 1426 ms
+2020-01-06 11:36:46 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-01-06 11:36:46 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:36:46 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:36:46 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-01-06 11:36:46 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:36:46 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 11:36:46 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 11:36:47 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:36:46 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:36:47 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:36:46 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:36:47 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 11:36:47 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 11:36:46 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 11:36:47 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-01-06 11:36:47 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-01-06 11:36:47 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-01-06 11:36:47 [INFO] FrameworkServlet 'springMVC': initialization completed in 720 ms
+2020-01-06 11:37:27 [INFO] {dataSource-1} inited
+2020-01-06 11:40:43 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:40:43 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:40:43 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:40:43 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:40:43 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:40:43 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:40:43 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:40:43 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:41:01 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:41:01 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:41:01 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:41:01 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 11:42:23 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:28:54 [INFO] Root WebApplicationContext: initialization started
+2020-01-06 15:28:54 [INFO] Refreshing Root WebApplicationContext: startup date [Mon Jan 06 15:28:54 CST 2020]; root of context hierarchy
+2020-01-06 15:28:54 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-01-06 15:28:54 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-01-06 15:28:54 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-01-06 15:28:55 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-01-06 15:28:55 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 15:28:55 [INFO] Starting beans in phase 2147483647
+2020-01-06 15:28:56 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-58221-1578295735973-1:1,clientId=null,started=false}
+2020-01-06 15:28:56 [INFO] Root WebApplicationContext: initialization completed in 1878 ms
+2020-01-06 15:28:56 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-01-06 15:28:56 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 15:28:56 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 15:28:56 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-01-06 15:28:56 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 15:28:56 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-06 15:28:56 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 15:28:57 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 15:28:56 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 15:28:57 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 15:28:56 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 15:28:57 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-01-06 15:28:57 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon Jan 06 15:28:56 CST 2020]; parent: Root WebApplicationContext
+2020-01-06 15:28:57 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-01-06 15:28:57 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-01-06 15:28:57 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-01-06 15:28:57 [INFO] FrameworkServlet 'springMVC': initialization completed in 1462 ms
+2020-01-06 15:31:47 [INFO] {dataSource-1} inited
+2020-01-06 15:31:48 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:31:48 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:31:48 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:31:48 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:34:42 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:34:42 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:34:42 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:34:42 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:35:48 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:35:48 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:35:48 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:35:48 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:52:29 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:52:29 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:52:29 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:52:29 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:57:49 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:57:49 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:57:49 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:57:49 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:59:09 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:59:09 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:59:09 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 15:59:09 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:03:07 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:03:07 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:03:07 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:03:07 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:09:22 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:09:22 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:09:22 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:09:22 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:10:44 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:10:44 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:10:44 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:10:44 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:00 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:23 [WARN] Tried to assign property errorDesc:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:23 [WARN] Tried to assign property success:java.lang.Boolean to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:23 [WARN] Tried to assign property randomNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean
+2020-01-06 16:16:23 [WARN] Tried to assign property customerNumber:java.lang.String to bean of class com.anxin.vo.AuthenticationData$BizPackageBean

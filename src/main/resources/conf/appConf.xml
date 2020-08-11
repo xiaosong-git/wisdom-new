@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312"?>
+<appConf>
+  <!--
+		*******************************
+		**********全局变量 ************
+		*******************************
+   -->
+   <property name="SERVER" value="tomcat"/><!-- websphere,tomcat -->
+   
+   <property name="isDebug" value="yes"/>
+   
+     <!-- 缓存地址 服务器二-->
+   <property name="RedisAddr" value="r-bp126e543bb7e944.redis.rds.aliyuncs.com"/>
+
+   <!-- 缓存密码 -->
+   <property name="RedisAuth" value="xiaosBAnxin2019"/>
+
+
+  <!-- 缓存地址 服务器二-->
+  <!--<property name="RedisAddr" value="106.52.245.57"/>-->
+  <!--<property name="RedisAuth" value="cwf"/>-->
+
+   <!-- 缓存过期时间 -->
+   <property name="RedisExpire" value="259200"/>
+
+  <!--
+		*******************************
+		***********服务器*************
+		*******************************
+   -->
+   <server current="true" name="main" text="paymentInit" class="com.xdream.wisdom.config.PaymentInitServer"/>      
+
+</appConf>

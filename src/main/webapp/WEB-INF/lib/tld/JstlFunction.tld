@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+
+<tlib-version>1.0</tlib-version>
+<short-name>fns</short-name>
+<uri>JstlFunction</uri>
+
+<!-- JSTL自定义函数  获取省份 -->
+<!-- 截取字符 -->
+<function>
+<name>part</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String part(java.lang.String, java.lang.Integer)</function-signature>
+</function>
+
+<!-- cst格式的日期转换 -->
+<function>
+<name>cstPart</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String cstPart(java.lang.String, java.lang.Integer)</function-signature>
+</function>
+
+<!-- 序列号 -->
+<function>
+<name>seq</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String seq(java.lang.String, java.lang.Integer, java.lang.Integer)</function-signature>
+</function>
+
+<!-- 下拉框 -->
+<function>
+<name>select</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String select(java.lang.String, java.lang.String)</function-signature>
+</function>
+
+<!-- 单选框 -->
+<function>
+<name>radio</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String radio(java.lang.String, java.lang.String)</function-signature>
+</function>
+
+<!-- 多行文本框空格和换行的转换 -->
+<function>
+<name>dspace</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String dspace(java.lang.String)</function-signature>
+</function>
+
+<!-- 转换返现比例 -->
+<function>
+<name>changeDis</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String changeDis(java.lang.String)</function-signature>
+</function>
+
+<!-- 返现比例价 -->
+<function>
+<name>changePri</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String changePri(java.lang.String, java.lang.String)</function-signature>
+</function>
+
+<!-- 根据管理员ID获取管理员账号 -->
+<function>
+<name>getManage</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String getManage(java.lang.String)</function-signature>
+</function>
+
+<!-- 转换日期格式 -->
+<function>
+<name>csd</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String convertSeparatorDate(java.lang.String)</function-signature>
+</function>
+
+<!-- 转换时间格式 -->
+<function>
+<name>cst</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String convertSeparatorTime(java.lang.String)</function-signature>
+</function>
+
+<!-- 截取字符串 -->
+<function>
+<name>sub</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String subString(java.lang.String,java.lang.Integer, java.lang.Integer)</function-signature>
+</function>
+
+<!-- 从后截取字符串 -->
+<function>
+<name>ses</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String subEndString(java.lang.String,java.lang.Integer)</function-signature>
+</function>
+
+<!-- 四舍五入 -->
+<function>
+<name>rhf</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String roundHalfUp2Str(java.lang.String,java.lang.Integer)</function-signature>
+</function>
+
+<!-- 将"活动类型"的数值转换为中文 -->
+<function>
+<name>getProductType</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String getProductType(java.lang.String)</function-signature>
+</function>
+
+<!-- 将"下单类型"的数值转换为中文 -->
+<function>
+<name>getActiveType</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String getActiveType(java.lang.String)</function-signature>
+</function>
+
+<!-- 将"审核状态"的数值转换为中文 -->
+<function>
+<name>getOneStatus</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String getOneStatus(java.lang.String)</function-signature>
+</function>
+
+<!-- 将"申诉状态"的数值转换为中文 -->
+<function>
+<name>getApplyStatus</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String getApplyStatus(java.lang.String)</function-signature>
+</function>
+<!-- 转换替换 -->
+<function>
+<name>replace</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)</function-signature>
+</function>
+<function>
+<name>replaceUrl</name>
+<function-class>com.sheep.www.tool.JstlFunction</function-class>
+<function-signature>java.lang.String replaceUrl(java.lang.String)</function-signature>
+</function>
+</taglib>

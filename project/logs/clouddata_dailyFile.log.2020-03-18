@@ -1,0 +1,318 @@
+2020-03-18 10:33:05 [INFO] Root WebApplicationContext: initialization started
+2020-03-18 10:33:05 [INFO] Refreshing Root WebApplicationContext: startup date [Wed Mar 18 10:33:05 CST 2020]; root of context hierarchy
+2020-03-18 10:33:05 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-18 10:33:05 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-18 10:33:05 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-18 10:33:06 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-18 10:33:06 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 10:33:06 [INFO] Starting beans in phase 2147483647
+2020-03-18 10:33:07 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-50316-1584498786967-1:1,clientId=null,started=false}
+2020-03-18 10:33:07 [INFO] Root WebApplicationContext: initialization completed in 1697 ms
+2020-03-18 10:33:07 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-18 10:33:07 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:33:07 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:33:07 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-18 10:33:07 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 10:33:07 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 10:33:07 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 10:33:07 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:33:07 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:33:08 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:33:07 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:33:08 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 10:33:08 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:33:07 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:33:08 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-18 10:33:08 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-18 10:33:08 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-18 10:33:08 [INFO] FrameworkServlet 'springMVC': initialization completed in 940 ms
+2020-03-18 10:35:10 [INFO] {dataSource-1} inited
+2020-03-18 10:56:08 [INFO] Root WebApplicationContext: initialization started
+2020-03-18 10:56:08 [INFO] Refreshing Root WebApplicationContext: startup date [Wed Mar 18 10:56:08 CST 2020]; root of context hierarchy
+2020-03-18 10:56:08 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-18 10:56:08 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-18 10:56:08 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-18 10:56:09 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-18 10:56:09 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 10:56:10 [INFO] Starting beans in phase 2147483647
+2020-03-18 10:56:10 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-50583-1584500170117-1:1,clientId=null,started=false}
+2020-03-18 10:56:10 [INFO] Root WebApplicationContext: initialization completed in 1764 ms
+2020-03-18 10:56:10 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-18 10:56:10 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:56:10 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:56:10 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-18 10:56:10 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 10:56:10 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 10:56:10 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 10:56:10 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:56:10 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:56:10 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:56:10 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:56:10 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 10:56:10 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 10:56:10 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 10:56:11 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-18 10:56:11 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-18 10:56:11 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-18 10:56:11 [INFO] FrameworkServlet 'springMVC': initialization completed in 725 ms
+2020-03-18 10:57:28 [INFO] {dataSource-1} inited
+2020-03-18 11:15:10 [INFO] Root WebApplicationContext: initialization started
+2020-03-18 11:15:10 [INFO] Refreshing Root WebApplicationContext: startup date [Wed Mar 18 11:15:10 CST 2020]; root of context hierarchy
+2020-03-18 11:15:10 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-18 11:15:10 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-18 11:15:10 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-18 11:15:11 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-18 11:15:11 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 11:15:11 [INFO] Starting beans in phase 2147483647
+2020-03-18 11:15:11 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-50774-1584501311764-1:1,clientId=null,started=false}
+2020-03-18 11:15:11 [INFO] Root WebApplicationContext: initialization completed in 1527 ms
+2020-03-18 11:15:11 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-18 11:15:11 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 11:15:11 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 11:15:11 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-18 11:15:12 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 11:15:12 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 11:15:12 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 11:15:12 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 11:15:11 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 11:15:12 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 11:15:11 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 11:15:12 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 11:15:12 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 11:15:11 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 11:15:12 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-18 11:15:12 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-18 11:15:12 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-18 11:15:12 [INFO] FrameworkServlet 'springMVC': initialization completed in 701 ms
+2020-03-18 11:15:53 [INFO] {dataSource-1} inited
+2020-03-18 15:16:16 [INFO] Root WebApplicationContext: initialization started
+2020-03-18 15:16:16 [INFO] Refreshing Root WebApplicationContext: startup date [Wed Mar 18 15:16:16 CST 2020]; root of context hierarchy
+2020-03-18 15:16:16 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-18 15:16:16 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-18 15:16:16 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-18 15:16:16 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-18 15:16:16 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:16:17 [INFO] Starting beans in phase 2147483647
+2020-03-18 15:16:17 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-54927-1584515777651-1:1,clientId=null,started=false}
+2020-03-18 15:16:17 [INFO] Root WebApplicationContext: initialization completed in 1697 ms
+2020-03-18 15:16:17 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-18 15:16:17 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:16:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:16:17 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-18 15:16:18 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:16:18 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:16:18 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 15:16:18 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:16:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:16:18 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:16:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:16:18 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 15:16:18 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:16:17 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:16:18 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-18 15:16:18 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-18 15:16:18 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-18 15:16:18 [INFO] FrameworkServlet 'springMVC': initialization completed in 800 ms
+2020-03-18 15:22:54 [INFO] Root WebApplicationContext: initialization started
+2020-03-18 15:22:54 [INFO] Refreshing Root WebApplicationContext: startup date [Wed Mar 18 15:22:54 CST 2020]; root of context hierarchy
+2020-03-18 15:22:54 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-18 15:22:54 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-18 15:22:54 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-18 15:22:54 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-18 15:22:54 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:22:55 [INFO] Starting beans in phase 2147483647
+2020-03-18 15:22:55 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-55245-1584516175651-1:1,clientId=null,started=false}
+2020-03-18 15:22:55 [INFO] Root WebApplicationContext: initialization completed in 1954 ms
+2020-03-18 15:22:56 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-18 15:22:56 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:22:56 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:22:56 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-18 15:22:56 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:22:56 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:22:56 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 15:22:56 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:22:56 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:22:56 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:22:56 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:22:56 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 15:22:56 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:22:56 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:22:56 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-18 15:22:56 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-18 15:22:56 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-18 15:22:57 [INFO] FrameworkServlet 'springMVC': initialization completed in 883 ms
+2020-03-18 15:24:18 [INFO] {dataSource-1} inited
+2020-03-18 15:26:08 [WARN] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1967)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1986)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:344)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:267)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2020-03-18 15:26:12 [WARN] Setup of JMS message listener invoker failed for destination 'gol.queue' - trying to recover. Cause: The Consumer is closed
+javax.jms.IllegalStateException: The Consumer is closed
+	at org.apache.activemq.ActiveMQMessageConsumer.checkClosed(ActiveMQMessageConsumer.java:880)
+	at org.apache.activemq.ActiveMQMessageConsumer.receive(ActiveMQMessageConsumer.java:641)
+	at org.springframework.jms.connection.CachedMessageConsumer.receive(CachedMessageConsumer.java:82)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveMessage(AbstractPollingMessageListenerContainer.java:413)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:293)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:246)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1144)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1136)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1033)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-18 15:26:12 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-55245-1584516175651-1:2,clientId=null,started=false}
+2020-03-18 15:26:12 [INFO] Successfully refreshed JMS Connection
+2020-03-18 15:27:48 [INFO] 请求异常 0202:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:414)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.xdream.wisdom.util.HttpUtil.http2Se(HttpUtil.java:479)
+	at com.xdream.wisdom.util.PhoneVerify.phoneVerify(PhoneVerify.java:97)
+	at com.xdream.wisdom.util.PhoneVerify.phoneVerity(PhoneVerify.java:65)
+	at com.xdream.wisdom.util.PhoneVerify.phoneHD(PhoneVerify.java:30)
+	at com.xdream.wisdom.service.biz.impl.ChannelService.InChannel(ChannelService.java:127)
+	at com.xdream.wisdom.service.biz.impl.ClientService.clientMsgSer(ClientService.java:35)
+	at com.xdream.wisdom.controller.EntranceController.requestPackage(EntranceController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-18 15:32:28 [INFO] Root WebApplicationContext: initialization started
+2020-03-18 15:32:28 [INFO] Refreshing Root WebApplicationContext: startup date [Wed Mar 18 15:32:28 CST 2020]; root of context hierarchy
+2020-03-18 15:32:28 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2020-03-18 15:32:28 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2020-03-18 15:32:28 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2020-03-18 15:32:29 [INFO] Loading properties file from class path resource [jdbc.properties]
+2020-03-18 15:32:29 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:32:29 [INFO] Starting beans in phase 2147483647
+2020-03-18 15:32:29 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-55350-1584516749730-1:1,clientId=null,started=false}
+2020-03-18 15:32:29 [INFO] Root WebApplicationContext: initialization completed in 1419 ms
+2020-03-18 15:32:29 [INFO] FrameworkServlet 'springMVC': initialization started
+2020-03-18 15:32:29 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:32:29 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:32:29 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2020-03-18 15:32:30 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:32:30 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-18 15:32:30 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 15:32:30 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:32:29 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:32:30 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:32:29 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:32:30 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-03-18 15:32:30 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Mar 18 15:32:29 CST 2020]; parent: Root WebApplicationContext
+2020-03-18 15:32:30 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-03-18 15:32:30 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-03-18 15:32:30 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-03-18 15:32:30 [INFO] FrameworkServlet 'springMVC': initialization completed in 856 ms
+2020-03-18 15:33:59 [INFO] {dataSource-1} inited
+2020-03-18 15:35:47 [INFO] 请求异常 0202:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:414)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.xdream.wisdom.util.HttpUtil.http2Se(HttpUtil.java:479)
+	at com.xdream.wisdom.util.PhoneVerify.phoneVerify(PhoneVerify.java:97)
+	at com.xdream.wisdom.util.PhoneVerify.phoneVerity(PhoneVerify.java:65)
+	at com.xdream.wisdom.util.PhoneVerify.phoneHD(PhoneVerify.java:30)
+	at com.xdream.wisdom.service.biz.impl.ChannelService.InChannel(ChannelService.java:127)
+	at com.xdream.wisdom.service.biz.impl.ClientService.clientMsgSer(ClientService.java:35)
+	at com.xdream.wisdom.controller.EntranceController.requestPackage(EntranceController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)

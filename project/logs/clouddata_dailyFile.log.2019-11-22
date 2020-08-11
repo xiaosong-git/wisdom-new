@@ -1,0 +1,179 @@
+2019-11-22 10:17:19 [INFO] Root WebApplicationContext: initialization started
+2019-11-22 10:17:19 [INFO] Refreshing Root WebApplicationContext: startup date [Fri Nov 22 10:17:19 CST 2019]; root of context hierarchy
+2019-11-22 10:17:19 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-11-22 10:17:19 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-11-22 10:17:20 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-11-22 10:17:20 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-11-22 10:17:20 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 10:17:21 [INFO] Starting beans in phase 2147483647
+2019-11-22 10:17:21 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-54297-1574389041519-1:1,clientId=null,started=false}
+2019-11-22 10:17:21 [INFO] Root WebApplicationContext: initialization completed in 1968 ms
+2019-11-22 10:17:21 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-11-22 10:17:21 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 10:17:21 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 10:17:21 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-11-22 10:17:21 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 10:17:21 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 10:17:22 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 10:17:22 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 10:17:21 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 10:17:22 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 10:17:21 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 10:17:22 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 10:17:22 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 10:17:21 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 10:17:22 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-11-22 10:17:22 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-11-22 10:17:22 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-11-22 10:17:22 [INFO] FrameworkServlet 'springMVC': initialization completed in 1098 ms
+2019-11-22 10:17:54 [INFO] {dataSource-1} inited
+2019-11-22 10:30:58 [WARN] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: Software caused connection abort: socket write error
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1967)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1986)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:344)
+	at org.apache.activemq.transport.AbstractInactivityMonitor$4.run(AbstractInactivityMonitor.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at org.apache.activemq.transport.tcp.TcpBufferedOutputStream.flush(TcpBufferedOutputStream.java:115)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at org.apache.activemq.transport.tcp.TcpTransport.oneway(TcpTransport.java:194)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.doOnewaySend(AbstractInactivityMonitor.java:334)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.access$800(AbstractInactivityMonitor.java:41)
+	at org.apache.activemq.transport.AbstractInactivityMonitor$4.run(AbstractInactivityMonitor.java:200)
+	... 3 more
+2019-11-22 10:30:58 [WARN] Setup of JMS message listener invoker failed for destination 'gol.queue' - trying to recover. Cause: The Session is closed
+javax.jms.IllegalStateException: The Session is closed
+	at org.apache.activemq.ActiveMQSession.checkClosed(ActiveMQSession.java:771)
+	at org.apache.activemq.ActiveMQSession.getTransacted(ActiveMQSession.java:540)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.jms.connection.CachingConnectionFactory$CachedSessionInvocationHandler.invoke(CachingConnectionFactory.java:384)
+	at com.sun.proxy.$Proxy39.getTransacted(Unknown Source)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.commitIfNecessary(AbstractMessageListenerContainer.java:710)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:341)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:246)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1144)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1136)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1033)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-22 10:30:58 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-54297-1574389041519-1:2,clientId=null,started=false}
+2019-11-22 10:30:58 [INFO] Successfully refreshed JMS Connection
+2019-11-22 11:33:03 [INFO] Root WebApplicationContext: initialization started
+2019-11-22 11:33:03 [INFO] Refreshing Root WebApplicationContext: startup date [Fri Nov 22 11:33:03 CST 2019]; root of context hierarchy
+2019-11-22 11:33:03 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-11-22 11:33:03 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-11-22 11:33:03 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-11-22 11:33:03 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-11-22 11:33:03 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 11:33:04 [INFO] Starting beans in phase 2147483647
+2019-11-22 11:33:04 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-59511-1574393584778-1:1,clientId=null,started=false}
+2019-11-22 11:33:04 [INFO] Root WebApplicationContext: initialization completed in 1772 ms
+2019-11-22 11:33:05 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-11-22 11:33:05 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:33:05 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:33:05 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-11-22 11:33:05 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 11:33:05 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 11:33:05 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 11:33:06 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:33:05 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:33:06 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:33:05 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:33:06 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 11:33:06 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:33:05 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:33:06 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-11-22 11:33:06 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-11-22 11:33:06 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-11-22 11:33:06 [INFO] FrameworkServlet 'springMVC': initialization completed in 1194 ms
+2019-11-22 11:33:37 [INFO] {dataSource-1} inited
+2019-11-22 11:39:27 [INFO] Root WebApplicationContext: initialization started
+2019-11-22 11:39:27 [INFO] Refreshing Root WebApplicationContext: startup date [Fri Nov 22 11:39:27 CST 2019]; root of context hierarchy
+2019-11-22 11:39:27 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-11-22 11:39:27 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-11-22 11:39:28 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-11-22 11:39:28 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-11-22 11:39:28 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 11:39:29 [INFO] Starting beans in phase 2147483647
+2019-11-22 11:39:29 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-59921-1574393969357-1:1,clientId=null,started=false}
+2019-11-22 11:39:29 [INFO] Root WebApplicationContext: initialization completed in 1738 ms
+2019-11-22 11:39:29 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-11-22 11:39:29 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:39:29 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:39:29 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-11-22 11:39:29 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 11:39:29 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 11:39:29 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 11:39:30 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:39:29 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:39:30 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:39:29 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:39:30 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 11:39:30 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 11:39:29 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 11:39:30 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-11-22 11:39:30 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-11-22 11:39:30 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-11-22 11:39:30 [INFO] FrameworkServlet 'springMVC': initialization completed in 822 ms
+2019-11-22 11:39:55 [INFO] {dataSource-1} inited
+2019-11-22 13:54:59 [INFO] Root WebApplicationContext: initialization started
+2019-11-22 13:54:59 [INFO] Refreshing Root WebApplicationContext: startup date [Fri Nov 22 13:54:59 CST 2019]; root of context hierarchy
+2019-11-22 13:54:59 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-11-22 13:54:59 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-11-22 13:54:59 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-11-22 13:55:00 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-11-22 13:55:00 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 13:55:00 [INFO] Starting beans in phase 2147483647
+2019-11-22 13:55:01 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-52323-1574402100996-1:1,clientId=null,started=false}
+2019-11-22 13:55:01 [INFO] Root WebApplicationContext: initialization completed in 1836 ms
+2019-11-22 13:55:01 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-11-22 13:55:01 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 13:55:01 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 13:55:01 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-11-22 13:55:01 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 13:55:01 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-22 13:55:01 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 13:55:02 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 13:55:01 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 13:55:02 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 13:55:01 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 13:55:02 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-22 13:55:02 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Nov 22 13:55:01 CST 2019]; parent: Root WebApplicationContext
+2019-11-22 13:55:02 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-11-22 13:55:02 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-11-22 13:55:02 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-11-22 13:55:02 [INFO] FrameworkServlet 'springMVC': initialization completed in 1086 ms
+2019-11-22 13:56:03 [INFO] {dataSource-1} inited
+2019-11-22 14:11:58 [WARN] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1967)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1986)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:344)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:267)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2019-11-22 14:12:00 [WARN] Setup of JMS message listener invoker failed for destination 'gol.queue' - trying to recover. Cause: The Consumer is closed
+javax.jms.IllegalStateException: The Consumer is closed
+	at org.apache.activemq.ActiveMQMessageConsumer.checkClosed(ActiveMQMessageConsumer.java:880)
+	at org.apache.activemq.ActiveMQMessageConsumer.receive(ActiveMQMessageConsumer.java:641)
+	at org.springframework.jms.connection.CachedMessageConsumer.receive(CachedMessageConsumer.java:82)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveMessage(AbstractPollingMessageListenerContainer.java:413)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:293)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:246)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1144)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1136)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1033)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-22 14:12:00 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-52323-1574402100996-1:2,clientId=null,started=false}
+2019-11-22 14:12:01 [INFO] Successfully refreshed JMS Connection

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlConf>
+	<sql name="searchTxDep" title="查询请求报文报文体 ">
+     <![CDATA[    
+	select a.txcode,a.msgname,a.msglength,a.isrequire from tbl_req_tx_code_dep a,tbl_plat_product b
+    where b.txcode = a.txcode and a.msgname not in('custid','txcode','productcode','serialno','mac') and b.platproductid=:productcode 
+      ]]>
+	</sql>
+
+</sqlConf>

@@ -1,0 +1,414 @@
+2019-09-22 14:01:29 [INFO] Root WebApplicationContext: initialization started
+2019-09-22 14:01:29 [INFO] Refreshing Root WebApplicationContext: startup date [Sun Sep 22 14:01:29 CST 2019]; root of context hierarchy
+2019-09-22 14:01:29 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-09-22 14:01:29 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-09-22 14:01:29 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-09-22 14:01:30 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-09-22 14:01:30 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 14:01:30 [WARN] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kdPublickey' in string value "${kdPublickey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kdPublickey' in string value "${kdPublickey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'kdPublickey' in string value "${kdPublickey}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:258)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:955)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 25 more
+2019-09-22 14:01:30 [ERROR] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kdPublickey' in string value "${kdPublickey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kdPublickey' in string value "${kdPublickey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'kdPublickey' in string value "${kdPublickey}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:258)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:955)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 25 more
+2019-09-22 14:05:15 [INFO] Root WebApplicationContext: initialization started
+2019-09-22 14:05:15 [INFO] Refreshing Root WebApplicationContext: startup date [Sun Sep 22 14:05:15 CST 2019]; root of context hierarchy
+2019-09-22 14:05:15 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-09-22 14:05:15 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-09-22 14:05:16 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-09-22 14:05:16 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-09-22 14:05:16 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 14:05:16 [WARN] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 23 more
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:164)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.evaluateBeanDefinitionString(AbstractBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 25 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:226)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:93)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:81)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:161)
+	... 29 more
+2019-09-22 14:05:16 [ERROR] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.xdream.wisdom.service.biz.impl.ChannelService.kdPublickey; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 23 more
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:164)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.evaluateBeanDefinitionString(AbstractBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 25 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'kdPublickey' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:226)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:93)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:81)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:161)
+	... 29 more
+2019-09-22 14:08:16 [INFO] Root WebApplicationContext: initialization started
+2019-09-22 14:08:16 [INFO] Refreshing Root WebApplicationContext: startup date [Sun Sep 22 14:08:16 CST 2019]; root of context hierarchy
+2019-09-22 14:08:16 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-09-22 14:08:16 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-09-22 14:08:17 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-09-22 14:08:17 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-09-22 14:08:17 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 14:08:18 [INFO] Starting beans in phase 2147483647
+2019-09-22 14:08:18 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-56034-1569132498119-1:1,clientId=null,started=false}
+2019-09-22 14:08:18 [INFO] Root WebApplicationContext: initialization completed in 1487 ms
+2019-09-22 14:08:18 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-09-22 14:08:18 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 14:08:18 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 14:08:18 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-09-22 14:08:18 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 14:08:18 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 14:08:18 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 14:08:19 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 14:08:18 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 14:08:19 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 14:08:18 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 14:08:19 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 14:08:19 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 14:08:18 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 14:08:19 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-09-22 14:08:19 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-09-22 14:08:19 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-09-22 14:08:19 [INFO] FrameworkServlet 'springMVC': initialization completed in 1008 ms
+2019-09-22 14:08:50 [INFO] {dataSource-1} inited
+2019-09-22 14:11:37 [INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-09-22 14:11:41 [INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2019-09-22 14:49:09 [WARN] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1967)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1986)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:344)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:267)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2019-09-22 14:49:09 [WARN] Setup of JMS message listener invoker failed for destination 'gol.queue' - trying to recover. Cause: The Session is closed
+javax.jms.IllegalStateException: The Session is closed
+	at org.apache.activemq.ActiveMQSession.checkClosed(ActiveMQSession.java:771)
+	at org.apache.activemq.ActiveMQSession.getTransacted(ActiveMQSession.java:540)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.jms.connection.CachingConnectionFactory$CachedSessionInvocationHandler.invoke(CachingConnectionFactory.java:384)
+	at com.sun.proxy.$Proxy40.getTransacted(Unknown Source)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.commitIfNecessary(AbstractMessageListenerContainer.java:710)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:341)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:246)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1144)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1136)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1033)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-22 14:49:09 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-56034-1569132498119-1:2,clientId=null,started=false}
+2019-09-22 14:49:09 [INFO] Successfully refreshed JMS Connection
+2019-09-22 15:05:35 [INFO] Root WebApplicationContext: initialization started
+2019-09-22 15:05:35 [INFO] Refreshing Root WebApplicationContext: startup date [Sun Sep 22 15:05:35 CST 2019]; root of context hierarchy
+2019-09-22 15:05:35 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-09-22 15:05:35 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-09-22 15:05:35 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-09-22 15:05:36 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-09-22 15:05:36 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:05:36 [INFO] Loading properties file from class path resource [jindie.properties]
+2019-09-22 15:05:36 [INFO] Starting beans in phase 2147483647
+2019-09-22 15:05:37 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-59974-1569135937023-1:1,clientId=null,started=false}
+2019-09-22 15:05:37 [INFO] Root WebApplicationContext: initialization completed in 1767 ms
+2019-09-22 15:05:37 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-09-22 15:05:37 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:05:37 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:05:37 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-09-22 15:05:37 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:05:37 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:05:37 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 15:05:38 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:05:37 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:05:38 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:05:37 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:05:38 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 15:05:38 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:05:37 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:05:38 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-09-22 15:05:38 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-09-22 15:05:38 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-09-22 15:05:38 [INFO] FrameworkServlet 'springMVC': initialization completed in 1250 ms
+2019-09-22 15:05:51 [INFO] {dataSource-1} inited
+2019-09-22 15:06:14 [INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-09-22 15:06:14 [INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2019-09-22 15:25:35 [INFO] Root WebApplicationContext: initialization started
+2019-09-22 15:25:35 [INFO] Refreshing Root WebApplicationContext: startup date [Sun Sep 22 15:25:35 CST 2019]; root of context hierarchy
+2019-09-22 15:25:35 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-09-22 15:25:35 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-09-22 15:25:35 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-09-22 15:25:35 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-09-22 15:25:35 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:25:36 [INFO] Loading properties file from class path resource [jindie.properties]
+2019-09-22 15:25:36 [INFO] Starting beans in phase 2147483647
+2019-09-22 15:25:36 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-61220-1569137136657-1:1,clientId=null,started=false}
+2019-09-22 15:25:36 [INFO] Root WebApplicationContext: initialization completed in 1540 ms
+2019-09-22 15:25:36 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-09-22 15:25:36 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:25:36 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:25:36 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-09-22 15:25:37 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:25:37 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:25:37 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 15:25:37 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:25:36 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:25:37 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:25:36 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:25:37 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 15:25:37 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:25:36 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:25:37 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-09-22 15:25:37 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-09-22 15:25:37 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-09-22 15:25:37 [INFO] FrameworkServlet 'springMVC': initialization completed in 796 ms
+2019-09-22 15:25:52 [INFO] {dataSource-1} inited
+2019-09-22 15:26:11 [INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-09-22 15:26:11 [INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2019-09-22 15:28:11 [WARN] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1967)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1986)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:344)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:267)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2019-09-22 15:28:11 [WARN] Setup of JMS message listener invoker failed for destination 'gol.queue' - trying to recover. Cause: The Session is closed
+javax.jms.IllegalStateException: The Session is closed
+	at org.apache.activemq.ActiveMQSession.checkClosed(ActiveMQSession.java:771)
+	at org.apache.activemq.ActiveMQSession.getTransacted(ActiveMQSession.java:540)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.jms.connection.CachingConnectionFactory$CachedSessionInvocationHandler.invoke(CachingConnectionFactory.java:384)
+	at com.sun.proxy.$Proxy40.getTransacted(Unknown Source)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.commitIfNecessary(AbstractMessageListenerContainer.java:710)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:341)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:246)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1144)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1136)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1033)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-22 15:28:11 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-61220-1569137136657-1:2,clientId=null,started=false}
+2019-09-22 15:28:11 [INFO] Successfully refreshed JMS Connection
+2019-09-22 15:37:14 [INFO] Root WebApplicationContext: initialization started
+2019-09-22 15:37:14 [INFO] Refreshing Root WebApplicationContext: startup date [Sun Sep 22 15:37:14 CST 2019]; root of context hierarchy
+2019-09-22 15:37:14 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext-core.xml]
+2019-09-22 15:37:14 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\applicationContext.xml]
+2019-09-22 15:37:14 [INFO] Loading XML bean definitions from file [E:\bigData_918\wisdom-new\target\classes\activemq.xml]
+2019-09-22 15:37:14 [INFO] Loading properties file from class path resource [jdbc.properties]
+2019-09-22 15:37:14 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:37:15 [INFO] Loading properties file from class path resource [jindie.properties]
+2019-09-22 15:37:15 [INFO] Starting beans in phase 2147483647
+2019-09-22 15:37:15 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-61921-1569137835380-1:1,clientId=null,started=false}
+2019-09-22 15:37:15 [INFO] Root WebApplicationContext: initialization completed in 1460 ms
+2019-09-22 15:37:15 [INFO] FrameworkServlet 'springMVC': initialization started
+2019-09-22 15:37:15 [INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:37:15 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:37:15 [INFO] Loading XML bean definitions from class path resource [mvc.xml]
+2019-09-22 15:37:15 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:37:15 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-22 15:37:15 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 15:37:16 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:37:15 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:37:16 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:37:15 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:37:16 [INFO] Mapped "{[/entrance/pub],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.xdream.wisdom.controller.EntranceController.requestPackage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-09-22 15:37:16 [INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Sep 22 15:37:15 CST 2019]; parent: Root WebApplicationContext
+2019-09-22 15:37:16 [INFO] Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-09-22 15:37:16 [INFO] Mapped URL path [/html/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-09-22 15:37:16 [INFO] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-09-22 15:37:16 [INFO] FrameworkServlet 'springMVC': initialization completed in 955 ms
+2019-09-22 15:37:28 [INFO] {dataSource-1} inited
+2019-09-22 15:37:28 [INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-09-22 15:37:28 [INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2019-09-22 15:49:17 [WARN] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1967)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1986)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:101)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:344)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:267)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2019-09-22 15:49:20 [WARN] Setup of JMS message listener invoker failed for destination 'gol.queue' - trying to recover. Cause: The Session is closed
+javax.jms.IllegalStateException: The Session is closed
+	at org.apache.activemq.ActiveMQSession.checkClosed(ActiveMQSession.java:771)
+	at org.apache.activemq.ActiveMQSession.getTransacted(ActiveMQSession.java:540)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.jms.connection.CachingConnectionFactory$CachedSessionInvocationHandler.invoke(CachingConnectionFactory.java:384)
+	at com.sun.proxy.$Proxy40.getTransacted(Unknown Source)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.commitIfNecessary(AbstractMessageListenerContainer.java:710)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:341)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:246)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1144)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1136)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1033)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-22 15:49:20 [INFO] Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20190121KZCT-61921-1569137835380-1:2,clientId=null,started=false}
+2019-09-22 15:49:20 [INFO] Successfully refreshed JMS Connection

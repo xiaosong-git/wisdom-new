@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlConf>
+	<sql name="modifCustAcct" title="更新客户的账户信息 ">
+     <![CDATA[    
+	update tbl_cust_acct set balance=balance-:amt,updatedate=:updatedate where custacct=:custacct;
+      ]]>
+	</sql>
+
+</sqlConf>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?>
+<artApp>
+  <deploy vendor="xxx"
+				application="xxx"
+				version="1.0"
+				copyright="Copyright 2017-2037"/>
+</artApp>

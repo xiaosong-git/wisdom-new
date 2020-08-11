@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sqlConf>
+	<sql name="findJsonSerTxDep" title="通过报文类型查找">
+     <![CDATA[    
+     
+select a1.servercode,a1.impmsg,a1.msglength,a1.nullable,ismac,defvalue from tbl_json_msg_dep a1
+     where a1.servercode=:servercode
+     ]]>
+	</sql>
+
+</sqlConf>

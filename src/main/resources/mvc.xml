@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="      
+           http://www.springframework.org/schema/beans      
+           http://www.springframework.org/schema/beans/spring-beans-3.2.xsd      
+           http://www.springframework.org/schema/context      
+           http://www.springframework.org/schema/context/spring-context-3.2.xsd     
+           http://www.springframework.org/schema/mvc      
+           http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+	<!-- ＭＶＣ配置 begin -->
+	<!-- 主要作用于@Controller，激活该模式，下面是一种简写形式，完全可以手动配置替代这种简写形式， 它会自动注册DefaultAnnotationHandlerMapping与AnnotationMethodHandlerAdapter，是spring 
+		MVC为@Controllers分发请求所必须的 不建议使用此自动方法。建议使用下方<bean...来手动配置 -->
+	<!-- <mvc:annotation-driven /> -->
+
+	<!-- 用于自动Controller自动返回json -->
+<mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <!-- <constructor-arg ref="utf8Charset"/> -->
+                 <!-- <property name="supportedMediaTypes" value = "text/plain;charset=UTF-8" /> -->
+                 <property name="writeAcceptCharset" value="false" /><!-- 用于避免响应头过大 --> 
+                 <property name = "supportedMediaTypes">
+                    <list>
+                        <value>text/plain;charset=UTF-8</value>   
+                        <value>text/html;charset=UTF-8</value>   
+						
+                    </list>   
+                 </property>
+            </bean>
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+                 <property name = "supportedMediaTypes">
+                    <list>
+                        <value>text/json;charset=UTF-8</value>   
+                    </list>   
+                 </property>
+                
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+	<!--Spring3.1开始的注解 HandlerMapping -->
+	<bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />
+	<!--Spring3.1开始的注解 HandlerAdapter -->
+	<bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+		<property name="synchronizeOnSession" value="true" /><!--线程安全的访问session -->
+  <property name="messageConverters">  
+            <list>  
+                <bean  
+                    class="org.springframework.http.converter.StringHttpMessageConverter">  
+                    <property name="supportedMediaTypes">  
+                        <list>  
+                            <value>text/plain;charset=UTF-8</value>  
+                        </list>  
+                    </property>  
+                </bean>  
+            </list>  
+        </property>  
+	</bean>
+
+	<!-- 配置了上面两个，就不需要配这个了 <mvc:annotation-driven /> -->
+	<!-- 全局异常拦截页面 -->
+	<bean class="com.xdream.kernel.exception.GeneralException" />
+
+	<!-- 配置js,css等静态文件直接映射到对应的文件夹，不被DispatcherServlet处理 -->
+	<mvc:resources location="/resource/" mapping="/resource/**" />
+	<mvc:resources location="/html/" mapping="/html/**" />
+
+	<!-- 如果当前请求为“/”时，则转发到“/helloworld/index” -->
+	<mvc:view-controller path="/"
+		view-name="forward:/system/login/loginInit" />
+
+	<!-- jsp页面解析器(视图编辑器)，当Controller返回XXX字符串时，先通过拦截器，然后该类就会在/WEB-INF/views/目录下，查找XXX.jsp文件 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<!-- ＭＶＣ配置 end -->
+	<context:component-scan base-package="com.xdream">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Service" />
+	</context:component-scan>
+	<!-- 自动扫描注解，无需显式配置 bean 了 -->
+	<bean
+		class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
+
+	<!-- @Value注解使用 -->
+	<!-- <context:property-placeholder location="classpath:jdbc.properties" 
+		/> -->
+
+	<!-- 多个properties文件，可以使用 ignore-unresolvable 属性 <context:property-placeholder 
+		location="xxx.properties" ignore-unresolvable="true" /> <context:property-placeholder 
+		location="xxx.properties" ignore-unresolvable="true" /> -->
+
+	<!-- <context:component-scan base-package="com.sheep.www.body" /> <context:component-scan 
+		base-package="com.sheep.www.data" /> -->
+	<!-- 启动时扫描所有的controller层 -->
+
+
+
+
+	<!-- 拦截器 -->
+	<!-- <mvc:interceptors> <mvc:interceptor> <mvc:mapping path="/**" /> 拦截/下的所有action 
+		<mvc:exclude-mapping path="/resource/**" /> <mvc:exclude-mapping path="/html/**" 
+		/> <bean class="com.xdream.kernel.interceptor.LoginInterceptor"/> </mvc:interceptor> 
+		</mvc:interceptors> -->
+
+
+
+	<!-- 图片上传 -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 设置上传文件的最大尺寸为1MB -->
+		<!-- <property name="defaultEncoding" value="utf-8" /> <property name="maxUploadSize" 
+			value="1048576" /> <property name="maxInMemorySize" value="40960" /> -->
+	</bean>
+
+	<!-- SpringMVC在超出上传文件限制时，会抛出org.springframework.web.multipart.MaxUploadSizeExceededException -->
+	<!-- 该异常是SpringMVC在检查上传的文件信息时抛出来的，而且此时还没有进入到Controller方法中 -->
+	<!-- 遇到MaxUploadSizeExceededException异常时，自动跳转到/WEB-INF/jsp/error.jsp页面 -->
+	<!-- <bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver"> 
+		<property name="exceptionMappings"> <props> <prop key="org.springframework.web.multipart.MaxUploadSizeExceededException">error</prop> 
+		</props> </property> </bean> -->
+
+</beans>
